@@ -1,0 +1,33 @@
+{
+  "name": "user-management-api",
+  "version": "1.0.0",
+  "description": "This project is a **User Management REST API** built with **Node.js, TypeScript, TypeORM, and MySQL**. It provides CRUD (Create, Read, Update, Delete) functionality for managing users and follows best practices for collaboration using **Git and GitHub branching**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchdev6/user-management-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchdev6/user-management-api/issues"
+  },
+  "homepage": "https://github.com/dchdev6/user-management-api#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.14.0",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.21"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
