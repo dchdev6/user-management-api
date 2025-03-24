@@ -10,10 +10,10 @@ This project is a **User Management REST API** built with **Node.js, TypeScript,
 - **API Framework**: Express.js
 
 ## Features
-- **Create a user** ✅ (Implemented by Alice)
-- **Delete a user** ✅ (Implemented by Bob)
-- **List and retrieve users** ✅ (Implemented by Carol)
-- **Manage main branch and integrate changes** ✅ (Managed by the Leader)
+- **Create a user** ✅ (Implemented by Rovic Steve Real)
+- **Delete a user** ✅ (Implemented by Niño Rollane Ocliasa)
+- **List and retrieve users** ✅ (Implemented by Jhanna Kris Durano)
+- **Manage main branch and integrate changes** ✅ (Managed by the Sean Joseph C. Arcana)
 
 ## Project Structure
 ```
