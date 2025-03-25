@@ -25,8 +25,12 @@ router.delete("/users/:id", async (req, res) => {
   
   router.get("/users/:id", async (req, res) => {
     const userRepository = getRepository(User);
-    const user = await userRepository.findOne(req.params.id);
+    const userId = Number(req.params.id);
+    const user = await userRepository.findOne({
+        where: { id: userId },
+    });
+
     res.json(user);
-  });
+});
 
 export default router;
