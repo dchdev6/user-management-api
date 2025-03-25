@@ -11,4 +11,11 @@ router.post("/users", async (req, res) => {
   res.json(user);
 });
 
+router.delete("/users/:id", async (req, res) => {
+    const userRepository = getRepository(User);
+    const result = await userRepository.delete(req.params.id);
+    res.json(result);
+  });
+
 export default router;
+
