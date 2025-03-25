@@ -4,6 +4,9 @@
   "description": "This project is a **User Management REST API** built with **Node.js, TypeScript, TypeORM, and MySQL**. It provides CRUD (Create, Read, Update, Delete) functionality for managing users and follows best practices for collaboration using **Git and GitHub branching**.",
   "main": "index.js",
   "scripts": {
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +25,8 @@
     "express": "^4.21.2",
     "mysql2": "^3.14.0",
     "reflect-metadata": "^0.2.2",
-    "typeorm": "^0.3.21"
+    "typeorm": "^0.3.21",
+    "typeorm-extension": "^3.7.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.1",
