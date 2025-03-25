@@ -30,7 +30,6 @@ router.delete("/users/:id", async (req, res) => {
         where: { id: userId },
     });
 
-    
     res.json(user);
 });
 
